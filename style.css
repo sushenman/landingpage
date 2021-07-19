@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.nav{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.nav-content{
+  padding: 1ch 5ch;
+
+}
+h2{
+    font-family: sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.image img{
+    
+    border: 0 px #000 solid;
+    
+}
+.text1{
+    position: relative;
+    top: 80px;
+    padding-top: 4em;
+    text-align: center;
+}
+.content button{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    padding: 0.5em 4em 0.5em 4em;    
+    border-radius: 5px;
+    border: 0px ;
+    background-color: rgb(233, 148, 38);
+    cursor:pointer;
+    transition: 0.5s all ease;
+    color: white;
+}
+.content button:hover{
+    background-color: rgba(255, 10, 10, 0.897);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(3, 8, 80, 0.979);
+    color: white;
+ 
+    
+}
+.footer div{
+    text-align: center;
+    padding-top: 3em;
+    
+}
+.footercont button{
+    padding: 5px 12vh 5px 12vh;
+    border-radius: 5px;
+    border: 0px ;
+    background-color: rgb(233, 148, 38);
+    cursor:pointer;
+    transition: 0.5s all ease;
+    color: white;
+    font-size: 18px;
+}
+.footercont button:hover{
+    background-color: rgb(255, 10, 10, 0.897);
+}
